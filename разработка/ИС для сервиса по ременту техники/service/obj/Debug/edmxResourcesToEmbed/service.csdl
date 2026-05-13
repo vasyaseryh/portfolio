@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="serviceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Заявки">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_создания" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="id_клиента" Type="Int32" Nullable="false" />
+    <Property Name="Телефон_клиента" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email_клиента" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Тип_техники" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Модель" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Неисправность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_мастера" Type="Int32" />
+    <Property Name="id_статус" Type="Int32" Nullable="false" />
+    <Property Name="Стоимость_работ" Type="Int32" Nullable="false" />
+    <Property Name="Стоимость_запчастей" Type="Int32" Nullable="false" />
+    <Property Name="column13" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Клиенты" Relationship="Self.FK_Заявки_Клиенты" FromRole="Заявки" ToRole="Клиенты" />
+    <NavigationProperty Name="Мастера" Relationship="Self.FK_Заявки_Мастера" FromRole="Заявки" ToRole="Мастера" />
+    <NavigationProperty Name="Статусы" Relationship="Self.FK_Заявки_Статусы1" FromRole="Заявки" ToRole="Статусы" />
+    <NavigationProperty Name="Услуги_Заявки" Relationship="Self.FK_Услуги_Заявки_Заявки" FromRole="Заявки" ToRole="Услуги_Заявки" />
+  </EntityType>
+  <EntityType Name="Клиенты">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_пользователя" Type="Int32" Nullable="false" />
+    <Property Name="Телефон" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_регистрации" Type="DateTime" Precision="0" />
+    <Property Name="Количество_заявок" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Заявки" Relationship="Self.FK_Заявки_Клиенты" FromRole="Клиенты" ToRole="Заявки" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.FK_Клиенты_Пользователи" FromRole="Клиенты" ToRole="Пользователи" />
+  </EntityType>
+  <EntityType Name="Мастера">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_пользователя" Type="Int32" Nullable="false" />
+    <Property Name="Специализация" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Стаж" Type="Int32" Nullable="false" />
+    <Property Name="Телефон" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Занят" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Заявки" Relationship="Self.FK_Заявки_Мастера" FromRole="Мастера" ToRole="Заявки" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.FK_Мастера_Пользователи1" FromRole="Мастера" ToRole="Пользователи" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ФИО" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="логин" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="пароль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="роль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Клиенты" Relationship="Self.FK_Клиенты_Пользователи" FromRole="Пользователи" ToRole="Клиенты" />
+    <NavigationProperty Name="Мастера" Relationship="Self.FK_Мастера_Пользователи1" FromRole="Пользователи" ToRole="Мастера" />
+  </EntityType>
+  <EntityType Name="Статусы">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="наименование" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Заявки" Relationship="Self.FK_Заявки_Статусы1" FromRole="Статусы" ToRole="Заявки" />
+  </EntityType>
+  <EntityType Name="Услуги">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Название_услуги" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Категория" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Базовая_цена" Type="Int32" Nullable="false" />
+    <Property Name="Среднее_время_мин" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Услуги_Заявки" Relationship="Self.FK_Услуги_Заявки_Услуги" FromRole="Услуги" ToRole="Услуги_Заявки" />
+  </EntityType>
+  <EntityType Name="Услуги_Заявки">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_заявки" Type="Int32" Nullable="false" />
+    <Property Name="id_услуги" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Заявки" Relationship="Self.FK_Услуги_Заявки_Заявки" FromRole="Услуги_Заявки" ToRole="Заявки" />
+    <NavigationProperty Name="Услуги" Relationship="Self.FK_Услуги_Заявки_Услуги" FromRole="Услуги_Заявки" ToRole="Услуги" />
+  </EntityType>
+  <Association Name="FK_Заявки_Клиенты">
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="1" />
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Клиенты">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_клиента" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявки_Мастера">
+    <End Role="Мастера" Type="Self.Мастера" Multiplicity="0..1" />
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Мастера">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_мастера" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявки_Статусы1">
+    <End Role="Статусы" Type="Self.Статусы" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Статусы">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_статус" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Услуги_Заявки_Заявки">
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Услуги_Заявки" Type="Self.Услуги_Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Заявки">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Услуги_Заявки">
+        <PropertyRef Name="id_заявки" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Клиенты_Пользователи">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="1" />
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Клиенты">
+        <PropertyRef Name="id_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Мастера_Пользователи1">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Мастера" Type="Self.Мастера" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Мастера">
+        <PropertyRef Name="id_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Услуги_Заявки_Услуги">
+    <End Role="Услуги" Type="Self.Услуги" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Услуги_Заявки" Type="Self.Услуги_Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Услуги">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Услуги_Заявки">
+        <PropertyRef Name="id_услуги" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="serviceEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Заявки" EntityType="Self.Заявки" />
+    <EntitySet Name="Клиенты" EntityType="Self.Клиенты" />
+    <EntitySet Name="Мастера" EntityType="Self.Мастера" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" />
+    <EntitySet Name="Статусы" EntityType="Self.Статусы" />
+    <EntitySet Name="Услуги" EntityType="Self.Услуги" />
+    <EntitySet Name="Услуги_Заявки" EntityType="Self.Услуги_Заявки" />
+    <AssociationSet Name="FK_Заявки_Клиенты" Association="Self.FK_Заявки_Клиенты">
+      <End Role="Клиенты" EntitySet="Клиенты" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявки_Мастера" Association="Self.FK_Заявки_Мастера">
+      <End Role="Мастера" EntitySet="Мастера" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявки_Статусы1" Association="Self.FK_Заявки_Статусы1">
+      <End Role="Статусы" EntitySet="Статусы" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Услуги_Заявки_Заявки" Association="Self.FK_Услуги_Заявки_Заявки">
+      <End Role="Заявки" EntitySet="Заявки" />
+      <End Role="Услуги_Заявки" EntitySet="Услуги_Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Клиенты_Пользователи" Association="Self.FK_Клиенты_Пользователи">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Клиенты" EntitySet="Клиенты" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Мастера_Пользователи1" Association="Self.FK_Мастера_Пользователи1">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Мастера" EntitySet="Мастера" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Услуги_Заявки_Услуги" Association="Self.FK_Услуги_Заявки_Услуги">
+      <End Role="Услуги" EntitySet="Услуги" />
+      <End Role="Услуги_Заявки" EntitySet="Услуги_Заявки" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(serviceModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(serviceModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

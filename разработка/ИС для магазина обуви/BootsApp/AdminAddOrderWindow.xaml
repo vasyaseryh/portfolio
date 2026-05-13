@@ -1,0 +1,27 @@
+﻿<Window x:Class="BootsApp.AdminAddOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BootsApp"
+        mc:Ignorable="d"
+        Title="AdminAddOrderWindow" Height="500" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="172,10,0,0" VerticalAlignment="Top" Width="100" Source="/Icon.png"/>
+        <Label Content="Дата заказа" HorizontalAlignment="Left" Margin="41,122,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="Дата_заказа" SelectedDate="{Binding Дата_заказа}" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="41,153,0,230"/>
+        <Label Content="ФИО клиента" HorizontalAlignment="Left" Margin="41,273,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ФИО" Text="{Binding ФИО_авторизованного_клиента}" HorizontalAlignment="Left" Margin="41,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Статус" HorizontalAlignment="Left" Margin="283,122,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Status" SelectedValue="{Binding id_статус}" DisplayMemberPath="название" SelectedValuePath="id"  HorizontalAlignment="Left" Margin="283,153,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить/Изменить заказ" HorizontalAlignment="Center" Margin="0,436,0,0" VerticalAlignment="Top" Width="430" Click="AddButt"/>
+        <Label Content="Дата поставки" HorizontalAlignment="Left" Margin="41,193,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="Дата_поставки" SelectedDate="{Binding Дата_доставки}" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="41,224,0,0"/>
+        <Label Content="Пункт выдачи" HorizontalAlignment="Left" Margin="283,205,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Пункт_выдачи" SelectedValue="{Binding id_пункт_выдачи}" DisplayMemberPath="ПолныйАдрес" SelectedValuePath="id"  HorizontalAlignment="Left" Margin="283,236,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Код для получения" HorizontalAlignment="Left" Margin="41,348,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Код" Text="{Binding Код_для_получения}" HorizontalAlignment="Left" Margin="41,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
+

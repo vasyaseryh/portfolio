@@ -1,0 +1,255 @@
+﻿<Window x:Class="ozon.Views.MainWorkerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ozon.Views"
+        mc:Ignorable="d"
+        Title="Страница сотрудника ПВЗ" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5"
+        TextOptions.TextFormattingMode="Display"
+        TextOptions.TextRenderingMode="ClearType">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Панель управления -->
+        <Border Grid.Row="0" Background="White" Padding="15" Margin="0,0,0,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Поиск -->
+                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="🔍 Поиск заказов:" 
+                              VerticalAlignment="Center" 
+                              FontSize="14" 
+                              FontWeight="SemiBold"
+                              Margin="0,0,10,0"
+                              TextOptions.TextFormattingMode="Display"/>
+                    <TextBox x:Name="SearchTextBox" 
+                             Height="30" 
+                             Width="300" 
+                             Padding="8,2"
+                             FontSize="13"
+                             BorderBrush="#DDD" 
+                             BorderThickness="1"
+                             Background="White"
+                             TextChanged="SearchTextBox_TextChanged"
+                             VerticalContentAlignment="Center"
+                             SnapsToDevicePixels="True"/>
+                </StackPanel>
+
+                <!-- Заголовок -->
+                <TextBlock Grid.Column="1" 
+                           Text="📦 Заказы в пункте выдачи" 
+                           FontSize="16" 
+                           FontWeight="SemiBold"
+                           Foreground="#2C3E50"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           TextOptions.TextFormattingMode="Display"/>
+
+                <!-- Кнопка назад -->
+                <Button Grid.Column="2"
+                        Content="← Назад" 
+                        Click="Back_Click"
+                        Background="White"
+                        Foreground="#6C757D"
+                        BorderBrush="#6C757D"
+                        BorderThickness="1"
+                        Padding="15,8"
+                        FontSize="13"
+                        FontWeight="SemiBold"
+                        Cursor="Hand"/>
+            </Grid>
+        </Border>
+
+        <!-- Список заказов -->
+        <Border Grid.Row="1" Background="White" Margin="10">
+            <ListView x:Name="productsList" 
+                      SelectionChanged="OnProductSelectionChanged" 
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      BorderThickness="0"
+                      Background="Transparent">
+
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="Background" Value="White"/>
+                        <Setter Property="BorderBrush" Value="#EEE"/>
+                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="Margin" Value="0,0,0,1"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#F8F9FA"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#E3F2FD"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="#EEE" 
+                                BorderThickness="0" 
+                                Margin="0" 
+                                Padding="15" 
+                                Background="White">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="200"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Изображение товара -->
+                                <Border Grid.Column="0" 
+                                        Background="#F8F9FA" 
+                                        BorderBrush="#DDD" 
+                                        BorderThickness="1"
+                                        CornerRadius="4"
+                                        Width="80" 
+                                        Height="80">
+                                    <Image Source="{Binding ImgUrl}" 
+                                           Stretch="UniformToFill"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+                                </Border>
+
+                                <!-- Основная информация -->
+                                <StackPanel Grid.Column="1" Margin="15,0,0,0" VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding Name}" 
+                                               FontSize="16" 
+                                               FontWeight="Bold" 
+                                               Foreground="#333"
+                                               TextWrapping="Wrap"
+                                               Margin="0,0,0,8"
+                                               TextOptions.TextFormattingMode="Display"/>
+
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                        <TextBlock Text="Количество: " 
+                                                   FontSize="12" 
+                                                   Foreground="#888"
+                                                   FontWeight="SemiBold"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                        <TextBlock Text="{Binding Quantity}" 
+                                                   FontSize="12" 
+                                                   Foreground="#333"
+                                                   FontWeight="Medium"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                        <TextBlock Text="Адрес: " 
+                                                   FontSize="12" 
+                                                   Foreground="#888"
+                                                   FontWeight="SemiBold"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                        <TextBlock Text="{Binding Address}" 
+                                                   FontSize="12" 
+                                                   Foreground="#333"
+                                                   TextWrapping="Wrap"
+                                                   MaxWidth="300"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                    </StackPanel>
+
+                                    <!-- Расположение на складе (отображается только для определенных статусов) -->
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5" 
+                                               >
+                                        <TextBlock Text="Расположение на складе: " 
+                                                   FontSize="12" 
+                                                   Foreground="#888"
+                                                   FontWeight="SemiBold"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                        <TextBlock Text="{Binding Location}" 
+                                                   FontSize="12" 
+                                                   Foreground="#333"
+                                                   FontWeight="Medium"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                    </StackPanel>
+
+                                    <!-- Даты -->
+                                    <StackPanel Orientation="Vertical" Margin="0,5,0,0">
+                                        <StackPanel Orientation="Horizontal" Margin="0,0,0,3">
+                                            <TextBlock Text="Создан: " 
+                                                       FontSize="11" 
+                                                       Foreground="#666"
+                                                       FontWeight="SemiBold"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                            <TextBlock Text="{Binding CreatedDateString}" 
+                                                       FontSize="11" 
+                                                       Foreground="#333"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Margin="0,0,0,3">
+                                            <TextBlock Text="Поставка: " 
+                                                       FontSize="11" 
+                                                       Foreground="#666"
+                                                       FontWeight="SemiBold"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                            <TextBlock Text="{Binding DeliveryDateString}" 
+                                                       FontSize="11" 
+                                                       Foreground="#333"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Margin="0,0,0,3">
+                                            <TextBlock Text="Отгрузка: " 
+                                                       FontSize="11" 
+                                                       Foreground="#666"
+                                                       FontWeight="SemiBold"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                            <TextBlock Text="{Binding ShipmentDateString}" 
+                                                       FontSize="11" 
+                                                       Foreground="#333"
+                                                       TextOptions.TextFormattingMode="Display"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <!-- Отступ -->
+                                <Border Grid.Column="2" Width="20"/>
+
+                                <!-- Статус и цена -->
+                                <StackPanel Grid.Column="3" VerticalAlignment="Center">
+                                    <!-- Статус заказа -->
+                                    <Border Background="{Binding StatusColor}" 
+                                            CornerRadius="12" 
+                                            Padding="8,4" 
+                                            Margin="0,0,0,8"
+                                            BorderThickness="0">
+                                        <TextBlock Text="{Binding Status}" 
+                                                   FontSize="11" 
+                                                   FontWeight="SemiBold"
+                                                   Foreground="White"
+                                                   HorizontalAlignment="Center"
+                                                   TextOptions.TextFormattingMode="Display"/>
+                                    </Border>
+
+                                    <!-- Цена -->
+                                    <TextBlock Text="{Binding Price, StringFormat='Сумма: {0}₽'}" 
+                                               FontSize="16" 
+                                               FontWeight="Bold"
+                                               Foreground="#1976D2"
+                                               HorizontalAlignment="Center"
+                                               TextOptions.TextFormattingMode="Display"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="service.OrderUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:service"
+        mc:Ignorable="d"
+        Title="OrderUserWindow" Height="472" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="47*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Image Height="72" VerticalAlignment="Center" Margin="6,0,6,0" Source="/diploma.jpg"/>
+        <DataGrid x:Name="ЗаявкиDg" IsReadOnly="True" Grid.Column="1" AutoGenerateColumns="False" Margin="0,80,0,90" Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Дата создания" Binding="{Binding Дата_создания, StringFormat='dd.mm.yyyy'}"/>
+                <DataGridTextColumn Header="Клиент" Binding="{Binding Клиенты.Пользователи.ФИО}"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон_клиента}"/>
+                <DataGridTextColumn Header="Почта" Binding="{Binding Email_клиента}"/>
+                <DataGridTextColumn Header="Тип техники" Binding="{Binding Тип_техники}"/>
+                <DataGridTextColumn Header="Модель" Binding="{Binding Модель}"/>
+                <DataGridTextColumn Header="Неисправность" Binding="{Binding Неисправность}"/>
+                <DataGridTextColumn Header="Мастер" Binding="{Binding Мастера.Пользователи.ФИО}"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Статусы.наименование}"/>
+                <DataGridTextColumn Header="Стоимость работ" Binding="{Binding Стоимость_работ}"/>
+                <DataGridTextColumn Header="Стоимость запчастей" Binding="{Binding Стоимость_запчастей}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Margin="0,80,0,0" Grid.RowSpan="2">
+            <Button Content="Услуги" Click="Uslugi"/>
+            <Button Content="Мои заявки"/>
+        </StackPanel>
+        <Button Content="Выход" HorizontalAlignment="Center" Margin="0,298,0,0" Grid.Row="1" VerticalAlignment="Top" Width="136" Click="Home" Height="20"/>
+
+    </Grid>
+</Window>

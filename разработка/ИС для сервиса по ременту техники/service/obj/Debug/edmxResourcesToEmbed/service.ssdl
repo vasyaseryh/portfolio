@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище serviceModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Заявки">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Дата_создания" Type="date" Nullable="false" />
+    <Property Name="id_клиента" Type="int" Nullable="false" />
+    <Property Name="Телефон_клиента" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email_клиента" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Тип_техники" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Модель" Type="nvarchar" MaxLength="50" />
+    <Property Name="Неисправность" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_мастера" Type="int" />
+    <Property Name="id_статус" Type="int" Nullable="false" />
+    <Property Name="Стоимость_работ" Type="int" Nullable="false" />
+    <Property Name="Стоимость_запчастей" Type="int" Nullable="false" />
+    <Property Name="column13" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Клиенты">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_пользователя" Type="int" Nullable="false" />
+    <Property Name="Телефон" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Адрес" Type="nvarchar" MaxLength="50" />
+    <Property Name="Дата_регистрации" Type="date" />
+    <Property Name="Количество_заявок" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Мастера">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_пользователя" Type="int" Nullable="false" />
+    <Property Name="Специализация" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Стаж" Type="int" Nullable="false" />
+    <Property Name="Телефон" Type="nvarchar" MaxLength="50" />
+    <Property Name="Занят" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ФИО" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="логин" Type="nvarchar" MaxLength="50" />
+    <Property Name="пароль" Type="nvarchar" MaxLength="50" />
+    <Property Name="роль" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Статусы">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="наименование" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Услуги">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Название_услуги" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Категория" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Базовая_цена" Type="int" Nullable="false" />
+    <Property Name="Среднее_время_мин" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Услуги_Заявки">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_заявки" Type="int" Nullable="false" />
+    <Property Name="id_услуги" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Заявки_Клиенты">
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="1" />
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Клиенты">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_клиента" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявки_Мастера">
+    <End Role="Мастера" Type="Self.Мастера" Multiplicity="0..1" />
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Мастера">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_мастера" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявки_Статусы1">
+    <End Role="Статусы" Type="Self.Статусы" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Статусы">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Заявки">
+        <PropertyRef Name="id_статус" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Клиенты_Пользователи">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="1" />
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Клиенты">
+        <PropertyRef Name="id_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Мастера_Пользователи1">
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Мастера" Type="Self.Мастера" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователи">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Мастера">
+        <PropertyRef Name="id_пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Услуги_Заявки_Заявки">
+    <End Role="Заявки" Type="Self.Заявки" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Услуги_Заявки" Type="Self.Услуги_Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Заявки">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Услуги_Заявки">
+        <PropertyRef Name="id_заявки" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Услуги_Заявки_Услуги">
+    <End Role="Услуги" Type="Self.Услуги" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Услуги_Заявки" Type="Self.Услуги_Заявки" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Услуги">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Услуги_Заявки">
+        <PropertyRef Name="id_услуги" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Хранилище serviceModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Заявки" EntityType="Self.Заявки" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Клиенты" EntityType="Self.Клиенты" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Мастера" EntityType="Self.Мастера" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Статусы" EntityType="Self.Статусы" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Услуги" EntityType="Self.Услуги" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Услуги_Заявки" EntityType="Self.Услуги_Заявки" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Заявки_Клиенты" Association="Self.FK_Заявки_Клиенты">
+      <End Role="Клиенты" EntitySet="Клиенты" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявки_Мастера" Association="Self.FK_Заявки_Мастера">
+      <End Role="Мастера" EntitySet="Мастера" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявки_Статусы1" Association="Self.FK_Заявки_Статусы1">
+      <End Role="Статусы" EntitySet="Статусы" />
+      <End Role="Заявки" EntitySet="Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Клиенты_Пользователи" Association="Self.FK_Клиенты_Пользователи">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Клиенты" EntitySet="Клиенты" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Мастера_Пользователи1" Association="Self.FK_Мастера_Пользователи1">
+      <End Role="Пользователи" EntitySet="Пользователи" />
+      <End Role="Мастера" EntitySet="Мастера" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Услуги_Заявки_Заявки" Association="Self.FK_Услуги_Заявки_Заявки">
+      <End Role="Заявки" EntitySet="Заявки" />
+      <End Role="Услуги_Заявки" EntitySet="Услуги_Заявки" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Услуги_Заявки_Услуги" Association="Self.FK_Услуги_Заявки_Услуги">
+      <End Role="Услуги" EntitySet="Услуги" />
+      <End Role="Услуги_Заявки" EntitySet="Услуги_Заявки" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

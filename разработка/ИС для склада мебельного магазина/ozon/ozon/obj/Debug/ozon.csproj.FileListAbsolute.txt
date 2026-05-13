@@ -1,0 +1,507 @@
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ozon.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ozon.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\EntityFramework.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\EntityFramework.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.AssemblyReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\App.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon_MarkupCompile.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon_MarkupCompile.lref
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.g.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Properties.Resources.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.GenerateResource.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.CoreCompileInputs.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.CopyComplete
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Buffers.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Buffers.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Collections.Immutable.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Collections.Immutable.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.SuggestedBindingRedirects.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.exe.config
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ozon.exe.config
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ozon.exe
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ozon.pdb
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\EntityFramework.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Buffers.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Memory.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\EntityFramework.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Buffers.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Memory.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.csproj.AssemblyReference.cache
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.exe.config
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\MainWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\AddWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\AdminWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\BuyWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\RegistrationWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\WorkerWindow.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\App.g.cs
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon_MarkupCompile.cache
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon_MarkupCompile.lref
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\MainWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\AddWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\AdminWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\BuyWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\LoginWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\RegistrationWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\WorkerWindow.baml
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.g.resources
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.Properties.Resources.resources
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.csproj.GenerateResource.cache
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.csproj.CoreCompileInputs.cache
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.csproj.CopyComplete
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.exe
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.pdb
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.Migrations.AddCompanyMigration.resources
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\ozon.Migrations.AddCompanyMigration1.resources
+C:\Users\Student.STD5\Desktop\ozon\ozon\obj\Debug\Views\OrdersWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\MainWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\BuyWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\MainWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\BuyWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.csproj.ResolveComReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Migrations.fdffdd.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Migrations.ewweew.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Migrations.efdvdfvdfvdf.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Migrations.tr.resources
+C:\Users\vasya\OneDrive\Рабочий стол\ozon\ozon\obj\Debug\ozon.Migrations.trль.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ozon.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ozon.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\EntityFramework.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Buffers.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Collections.Immutable.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\EntityFramework.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Buffers.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Collections.Immutable.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.AssemblyReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.SuggestedBindingRedirects.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.ResolveComReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\MainWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\BuyWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\App.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon_MarkupCompile.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon_MarkupCompile.lref
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\MainWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\BuyWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.g.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Migrations.fdffdd.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Migrations.ewweew.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Migrations.efdvdfvdfvdf.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Migrations.tr.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Migrations.trль.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.Properties.Resources.resources
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.GenerateResource.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.CoreCompileInputs.cache
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.csproj.CopyComplete
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\Новая папка\ozon\ozon\obj\Debug\ozon.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ozon.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ozon.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\EntityFramework.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Buffers.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Collections.Immutable.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Memory.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\EntityFramework.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Buffers.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Collections.Immutable.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Memory.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.AssemblyReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.SuggestedBindingRedirects.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.ResolveComReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\MainWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\BuyWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\EditOrderWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\authorization\LoginWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\authorization\RegistrationWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\App.g.cs
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon_MarkupCompile.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon_MarkupCompile.lref
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\AddOrderWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\AddProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\WatchProductWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\MainWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\BuyWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\worker\ChangeStatusWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\ChangeWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\admin\WatchOrdersWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\Views\worker\MainWorkerWindow.baml
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.g.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Migrations.fdffdd.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Migrations.ewweew.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Migrations.efdvdfvdfvdf.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Migrations.tr.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Migrations.trль.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.Properties.Resources.resources
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.GenerateResource.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.CoreCompileInputs.cache
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.csproj.CopyComplete
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.exe
+C:\Users\vasya\OneDrive\Рабочий стол\для резюме\разработка\ozon\ozon\obj\Debug\ozon.pdb

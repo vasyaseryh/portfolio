@@ -1,0 +1,22 @@
+﻿<Window x:Class="service.УслугиAddAdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:service"
+        mc:Ignorable="d"
+        Title="УслугиAddAdminWindow" Height="700" Width="450">
+    <Grid x:Name="___Без_имени_">
+        <Image HorizontalAlignment="Left" Height="100" Margin="172,10,0,0" VerticalAlignment="Top" Width="100" Source="/diploma.jpg"/>
+        <Label Content="Название услуги" HorizontalAlignment="Left" Margin="56,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="НазваниеУслуги" Text="{Binding Название_услуги}" HorizontalAlignment="Left" Margin="56,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Категория" HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="Категория" Text="{Binding Категория}" HorizontalAlignment="Left" Margin="56,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Базовая_цена" Content="Цена услуги"  HorizontalAlignment="Left" Margin="56,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="БазоваяЦена" Text="{Binding Базовая_цена}" HorizontalAlignment="Left" Margin="56,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Среднее время работы в мин." HorizontalAlignment="Left" Margin="56,375,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="СреднееВремя" Text="{Binding Среднее_время_мин}" HorizontalAlignment="Left" Margin="56,411,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить/Изменить" HorizontalAlignment="Center" Margin="0,586,0,0" VerticalAlignment="Top" Width="430" Click="AddOrChange"/>
+
+    </Grid>
+</Window>

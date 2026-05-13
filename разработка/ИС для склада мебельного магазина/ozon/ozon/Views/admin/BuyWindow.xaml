@@ -1,0 +1,264 @@
+﻿<Window x:Class="ozon.Views.BuyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ozon.Views"
+        mc:Ignorable="d"
+        Title="Оформление заказа" Height="650" Width="700"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5"
+        TextOptions.TextFormattingMode="Display"
+        TextOptions.TextRenderingMode="ClearType"
+        SnapsToDevicePixels="True"
+        UseLayoutRounding="True">
+
+    <Border Background="White" Margin="15" CornerRadius="8">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Opacity="0.1" ShadowDepth="2"/>
+        </Border.Effect>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="25">
+
+                <!-- Заголовок -->
+                <TextBlock Text="📦 Оформление заказа" 
+                           FontSize="20" 
+                           FontWeight="Bold" 
+                           Foreground="#2C3E50"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,10"
+                           TextOptions.TextFormattingMode="Display"/>
+
+                <!-- Информация о товаре -->
+                <Border Background="#F8F9FA" Padding="15" CornerRadius="6">
+                    <StackPanel>
+                        <TextBlock Text="Информация о товаре" 
+                                   FontSize="14" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#495057"
+                                   Margin="0,0,0,10"
+                                   TextOptions.TextFormattingMode="Display"/>
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" 
+                                       Text="Товар:" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#6C757D" 
+                                       Margin="0,0,10,5"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1" 
+                                       Text="{Binding ProductName}" 
+                                       Foreground="#2C3E50" 
+                                       FontSize="14"
+                                       TextOptions.TextFormattingMode="Display"/>
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" 
+                                       Text="Доступно:" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#6C757D" 
+                                       Margin="0,0,10,5"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <TextBlock Grid.Row="1" Grid.Column="1" 
+                                       Text="{Binding AvailableQuantity, StringFormat='Количество {0} шт.'}" 
+                                       Foreground="#2C3E50"
+                                       TextOptions.TextFormattingMode="Display"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" 
+                                       Text="Цена за шт:" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#6C757D" 
+                                       Margin="0,0,10,5"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <TextBlock Grid.Row="2" Grid.Column="1" 
+                                       Text="{Binding UnitPrice, StringFormat='Сумма {0}₽'}" 
+                                       Foreground="#1976D2" 
+                                       FontWeight="Bold"
+                                       TextOptions.TextFormattingMode="Display"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Выбор количества -->
+                <StackPanel>
+                    <TextBlock Text="Выберите количество *" 
+                               FontSize="14" 
+                               FontWeight="SemiBold" 
+                               Foreground="#495057"
+                               Margin="0,0,0,8"
+                               TextOptions.TextFormattingMode="Display"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Slider x:Name="slider" 
+                                Grid.Column="0"
+                                Minimum="1" 
+                                Maximum="{Binding AvailableQuantity}" 
+                                Value="1" 
+                                LargeChange="1" 
+                                SmallChange="1" 
+                                TickFrequency="1"
+                                Height="25"
+                                VerticalAlignment="Center"
+                                ValueChanged="MySlider_ValueChanged"/>
+
+                        <TextBlock Grid.Column="1" 
+                                   Margin="15,0,0,0" 
+                                   VerticalAlignment="Center" 
+                                   Text="{Binding ElementName=slider, Path=Value, StringFormat='{}Выбрано: {0:F0} шт.'}" 
+                                   FontSize="13"
+                                   Foreground="#495057"
+                                   MinWidth="100"
+                                   TextOptions.TextFormattingMode="Display"/>
+                    </Grid>
+                </StackPanel>
+
+                <!-- Итоговая цена -->
+                <Border Background="#E3F2FD" Padding="12" CornerRadius="6">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="💰 Итоговая цена:" 
+                                   FontSize="14" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#1976D2"
+                                   Margin="0,0,10,0"
+                                   TextOptions.TextFormattingMode="Display"/>
+                        <TextBlock Text="{Binding TotalPrice, StringFormat='Сумма {0}₽'}" 
+                                   FontSize="16" 
+                                   FontWeight="Bold" 
+                                   Foreground="#1976D2"
+                                   TextOptions.TextFormattingMode="Display"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Пункт выдачи -->
+                <StackPanel>
+                    <TextBlock Text="Пункт выдачи *" 
+                               FontSize="14" 
+                               FontWeight="SemiBold" 
+                               Foreground="#495057"
+                               Margin="0,0,0,8"
+                               TextOptions.TextFormattingMode="Display"/>
+                    <ComboBox x:Name="pickupPointComboBox" 
+                              Height="35" 
+                              Padding="10,0"
+                              FontSize="13"
+                              BorderBrush="#DDD" 
+                              BorderThickness="1"
+                              Background="White"/>
+                </StackPanel>
+
+                <!-- Даты с временем -->
+                <Border Background="#FFF3E0" Padding="15" CornerRadius="6">
+                    <StackPanel>
+
+                        <!-- Дата и время отгрузки -->
+                        <StackPanel Margin="0,0,0,15">
+                            <TextBlock Text="📤 Дата и время отгрузки:" 
+                                       FontSize="12" 
+                                       FontWeight="SemiBold"
+                                       Foreground="#6C757D"
+                                       Margin="0,0,0,5"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <DatePicker Grid.Column="0" 
+                                            x:Name="shipmentDatePicker"
+                                            Height="30"
+                                            FontSize="12"
+                                            BorderBrush="#DDD"
+                                            SelectedDateChanged="ShipmentDatePicker_SelectedDateChanged"
+                                            IsTodayHighlighted="True"/>
+                                <TextBox Grid.Column="2" 
+                                         x:Name="shipmentTimeTextBox"
+                                         Height="30"
+                                         FontSize="12"
+                                         Padding="8"
+                                         BorderBrush="#DDD"
+                                         BorderThickness="1"
+                                         Background="White"
+                                         ToolTip="Формат: HH:mm (например: 14:30)"
+                                         Text="12:00"/>
+                            </Grid>
+                        </StackPanel>
+
+                        <!-- Дата и время поставки -->
+                        <StackPanel>
+                            <TextBlock Text="📥 Дата и время поставки:" 
+                                       FontSize="12" 
+                                       FontWeight="SemiBold"
+                                       Foreground="#6C757D"
+                                       Margin="0,0,0,5"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <DatePicker Grid.Column="0" 
+                                            x:Name="deliveryDatePicker"
+                                            Height="30"
+                                            FontSize="12"
+                                            BorderBrush="#DDD"
+                                            SelectedDateChanged="DeliveryDatePicker_SelectedDateChanged"
+                                            IsTodayHighlighted="True"/>
+                                <TextBox Grid.Column="2" 
+                                         x:Name="deliveryTimeTextBox"
+                                         Height="30"
+                                         FontSize="12"
+                                         Padding="8"
+                                         BorderBrush="#DDD"
+                                         BorderThickness="1"
+                                         Background="White"
+                                         ToolTip="Формат: HH:mm (например: 14:30)"
+                                         Text="12:00"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Кнопка оформления -->
+                <Button Content="✅ Оформить заказ" 
+                        Click="OrderButtonClick" 
+                        Height="45"
+                        Background="#4CAF50"
+                        Foreground="White"
+                        BorderThickness="0"
+                        FontSize="15"
+                        FontWeight="SemiBold"
+                        Cursor="Hand"
+                        Margin="0,10,0,0">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" Opacity="0.2" ShadowDepth="2"/>
+                    </Button.Effect>
+                </Button>
+
+                <!-- Подсказка -->
+                <TextBlock Text="* - обязательные поля" 
+                           FontSize="11" 
+                           Foreground="#888"
+                           HorizontalAlignment="Center"
+                           TextOptions.TextFormattingMode="Display"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</Window>

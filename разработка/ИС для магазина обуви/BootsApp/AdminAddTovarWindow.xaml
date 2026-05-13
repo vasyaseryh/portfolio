@@ -1,0 +1,46 @@
+﻿<Window x:Class="BootsApp.AdminAddTovarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BootsApp"
+        mc:Ignorable="d"
+        Title="AdminAddTovarWindow" Height="900" Width="450">
+    <ScrollViewer>
+        <Grid>
+            <Label Content="Наименование товара" Margin="42,145,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Единица измерения" Margin="42,176,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="txtНазвание" Text="{Binding Наименование_товара}" Margin="219,145,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtЕдиница" Text="{Binding Единица_измерения}" Margin="219,181,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtЦена" Text="{Binding Цена}" Margin="219,239,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <Button Content="Дрбавить/Изменить товар" Margin="10,833,10,31" Click="ChangeButt"/>
+
+            <Image Height="100" Margin="162,10,0,0" Width="100" Source="/Icon.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Категория товара" Margin="42,422,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Поставщик" Margin="42,307,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Производитель" Margin="42,364,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="txtПоставщик" Text="{Binding Поставщик}" Margin="219,310,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtПроизводитель" Text="{Binding Производитель}" Margin="219,365,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtКатегория" Text="{Binding Категория_товара}" Margin="219,423,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <Label Content="Описание товара" Margin="42,600,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Скидка" Margin="42,485,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Количество на складе" Margin="42,542,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="txtСкидка" Text="{Binding Действующая_скидка}" Margin="219,488,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtКоличество" Text="{Binding Кол_во_на_складе}" Margin="219,543,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtОписание" Text="{Binding Описание_товара}" Margin="219,601,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <Label Content="Цена" Margin="42,234,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label Content="Картинка:" Margin="42,670,0,187" HorizontalAlignment="Left" Width="71"/>
+            <Label Content="id товара" Margin="39,115,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="txtId" Text="{Binding id}" Margin="219,116,0,0" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtКартинка" Text="{Binding Фото}" Margin="219,665,0,182" Width="200" HorizontalAlignment="Left"/>
+            <Button Content="Выбрать" Width="60" Click="SelectImage_Click" Margin="219,721,0,141" HorizontalAlignment="Left"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

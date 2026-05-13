@@ -1,0 +1,29 @@
+﻿<Window x:Class="BootsApp.UserPayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BootsApp"
+        mc:Ignorable="d"
+        Title="UserPayWindow" Height="800" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,38,0,0" VerticalAlignment="Top" Width="100" Source="/Icon.png"/>
+        <Label Content="Информация о товаре" HorizontalAlignment="Left" Margin="24,189,0,0" VerticalAlignment="Top"/>
+        <Label Content="Производитель" HorizontalAlignment="Left" Margin="24,389,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество на складе" HorizontalAlignment="Left" Margin="24,451,0,0" VerticalAlignment="Top"/>
+        <Label Content="Стоимость" HorizontalAlignment="Left" Margin="24,420,0,0" VerticalAlignment="Top"/>
+        <Label Content="Фото" HorizontalAlignment="Left" Margin="24,215,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="24,259,0,0" VerticalAlignment="Top" Width="100" Source="/3.jpg"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="161,389,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="161,451,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="161,420,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="24,513,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="24,585,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="24,559,0,0" VerticalAlignment="Top"/>
+        <Label Content="Итоговая стоимость в руб." HorizontalAlignment="Left" Margin="24,643,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="200,643,0,0" VerticalAlignment="Top"/>
+        <Button Content="Купить товар" HorizontalAlignment="Center" Margin="0,718,0,0" VerticalAlignment="Top" Width="430"/>
+        <Label Content="Адрес пункта выдачи" HorizontalAlignment="Left" Margin="24,487,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

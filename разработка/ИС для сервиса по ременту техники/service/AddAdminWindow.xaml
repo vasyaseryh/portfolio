@@ -1,0 +1,30 @@
+﻿<Window x:Class="service.AddAdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:service"
+        mc:Ignorable="d"
+        Title="AddAdminWindow" Height="700" Width="450">
+    <Grid x:Name="___Без_имени_">
+        <Image HorizontalAlignment="Left" Height="100" Margin="172,10,0,0" VerticalAlignment="Top" Width="100" Source="/diploma.jpg"/>
+        <Label Content="Клиент" HorizontalAlignment="Left" Margin="267,118,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Клиент" SelectedValue="{Binding id_клиента}" SelectedValuePath="id" DisplayMemberPath="Пользователи.ФИО" HorizontalAlignment="Left" Margin="267,152,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Тип техники" HorizontalAlignment="Left" Margin="56,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="ТипТехники" Text="{Binding Тип_техники}" HorizontalAlignment="Left" Margin="56,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Модель" HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="Модель" Text="{Binding Модель}" HorizontalAlignment="Left" Margin="56,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Неисправность"  HorizontalAlignment="Left" Margin="56,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="Неисправность" Text="{Binding Неисправность}" HorizontalAlignment="Left" Margin="56,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Стоимость работ" HorizontalAlignment="Left" Margin="56,375,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="СтоимостьРабот" Text="{Binding Стоимость_работ}" HorizontalAlignment="Left" Margin="56,411,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Стоимость запчастей" HorizontalAlignment="Left" Margin="56,465,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.546"/>
+        <TextBox x:Name="СтоимостьЗапчастей" Text="{Binding Стоимость_запчастей}" HorizontalAlignment="Left" Margin="56,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить/Изменить" HorizontalAlignment="Center" Margin="0,586,0,0" VerticalAlignment="Top" Width="430" Click="AddOrChange"/>
+        <Label Content="Мастер" HorizontalAlignment="Left" Margin="267,204,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Мастер" SelectedValue="{Binding id_мастера}" SelectedValuePath="ID" DisplayMemberPath="Пользователи.ФИО" HorizontalAlignment="Left" Margin="267,238,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Статус" HorizontalAlignment="Left" Margin="267,303,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Статус" SelectedValue="{Binding id_статус}" SelectedValuePath="id" DisplayMemberPath="наименование" HorizontalAlignment="Left" Margin="267,337,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,273 @@
+﻿<Window x:Class="ozon.Views.ChangeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ozon.Views"
+        mc:Ignorable="d"
+        Title="Изменение товара" Height="550" Width="700"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5"
+        TextOptions.TextFormattingMode="Display"
+        TextOptions.TextRenderingMode="ClearType">
+
+    <Border Background="White" Margin="15" CornerRadius="8">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Opacity="0.1" ShadowDepth="2"/>
+        </Border.Effect>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="25">
+
+                <!-- Заголовок -->
+                <TextBlock Text="✏️ Редактирование товара" 
+                           FontSize="20" 
+                           FontWeight="Bold" 
+                           Foreground="#2C3E50"
+                           HorizontalAlignment="Center"
+                           TextOptions.TextFormattingMode="Display"/>
+
+                <!-- Основная информация -->
+                <StackPanel>
+
+                    <!-- Наименование -->
+                    <StackPanel>
+                        <TextBlock Text="Наименование товара *" 
+                                   FontSize="14" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#495057"
+                                   Margin="0,0,0,8"
+                                   TextOptions.TextFormattingMode="Display"/>
+                        <TextBox Name="BoxName" 
+                                 Text="{Binding Name}"
+                                 Height="40" 
+                                 Padding="12,8"
+                                 FontSize="14"
+                                 BorderBrush="#DDD" 
+                                 BorderThickness="1.5"
+                                 Background="White"
+                                 VerticalContentAlignment="Center"
+                                 SnapsToDevicePixels="True"/>
+                    </StackPanel>
+
+                    <!-- Описание -->
+                    <StackPanel>
+                        <TextBlock Text="Описание товара" 
+                                   FontSize="14" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#495057"
+                                   Margin="0,0,0,8"
+                                   TextOptions.TextFormattingMode="Display"/>
+                        <TextBox Name="BoxDescription" 
+                                 Text="{Binding Description}"
+                                 AcceptsReturn="True" 
+                                 TextWrapping="Wrap" 
+                                 Height="80"
+                                 Padding="12,8"
+                                 FontSize="14"
+                                 BorderBrush="#DDD" 
+                                 BorderThickness="1.5"
+                                 Background="White"
+                                 VerticalScrollBarVisibility="Auto"
+                                 VerticalContentAlignment="Top"/>
+                    </StackPanel>
+
+                    <!-- Цена и количество в одной строке -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Цена -->
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Цена (руб) *" 
+                                       FontSize="14" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#495057"
+                                       Margin="0,0,0,8"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <TextBox Name="BoxPrice" 
+                                     Text="{Binding Price}"
+                                     Height="40" 
+                                     Padding="12,8"
+                                     FontSize="14"
+                                     BorderBrush="#DDD" 
+                                     BorderThickness="1.5"
+                                     Background="White"
+                                     VerticalContentAlignment="Center"/>
+                        </StackPanel>
+
+                        <!-- Количество -->
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="Количество в наличии *" 
+                                       FontSize="14" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#495057"
+                                       Margin="0,0,0,8"
+                                       TextOptions.TextFormattingMode="Display"/>
+                            <TextBox Name="BoxQuantity" 
+                                     Text="{Binding Quantity}"
+                                     Height="40" 
+                                     Padding="12,8"
+                                     FontSize="14"
+                                     BorderBrush="#DDD" 
+                                     BorderThickness="1.5"
+                                     Background="White"
+                                     VerticalContentAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Габариты -->
+                    <Border Background="#F8F9FA" Padding="15" CornerRadius="6">
+                        <StackPanel>
+                            <TextBlock Text="📏 Габариты товара (см)" 
+                                       FontSize="14" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#495057"
+                                       Margin="0,0,0,10"
+                                       TextOptions.TextFormattingMode="Display"/>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Длина -->
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Длина" 
+                                               FontSize="13" 
+                                               FontWeight="SemiBold"
+                                               Foreground="#6C757D"
+                                               Margin="0,0,0,5"
+                                               TextOptions.TextFormattingMode="Display"/>
+                                    <TextBox Name="BoxLength" 
+                                             Text="{Binding lehgth}"
+                                             Height="35" 
+                                             Padding="10,8"
+                                             FontSize="13"
+                                             BorderBrush="#DDD" 
+                                             BorderThickness="1"
+                                             Background="White"
+                                             VerticalContentAlignment="Center"/>
+                                </StackPanel>
+
+                                <!-- Ширина -->
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Ширина" 
+                                               FontSize="13" 
+                                               FontWeight="SemiBold"
+                                               Foreground="#6C757D"
+                                               Margin="0,0,0,5"
+                                               TextOptions.TextFormattingMode="Display"/>
+                                    <TextBox Name="BoxWidth" 
+                                             Text="{Binding width}"
+                                             Height="35" 
+                                             Padding="10,8"
+                                             FontSize="13"
+                                             BorderBrush="#DDD" 
+                                             BorderThickness="1"
+                                             Background="White"
+                                             VerticalContentAlignment="Center"/>
+                                </StackPanel>
+
+                                <!-- Высота -->
+                                <StackPanel Grid.Column="4">
+                                    <TextBlock Text="Высота" 
+                                               FontSize="13" 
+                                               FontWeight="SemiBold"
+                                               Foreground="#6C757D"
+                                               Margin="0,0,0,5"
+                                               TextOptions.TextFormattingMode="Display"/>
+                                    <TextBox Name="BoxHeight" 
+                                             Text="{Binding height}"
+                                             Height="35" 
+                                             Padding="10,8"
+                                             FontSize="13"
+                                             BorderBrush="#DDD" 
+                                             BorderThickness="1"
+                                             Background="White"
+                                             VerticalContentAlignment="Center"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Изображение -->
+                    <StackPanel>
+                        <TextBlock Text="Путь к изображению" 
+                                   FontSize="14" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#495057"
+                                   Margin="0,0,0,8"
+                                   TextOptions.TextFormattingMode="Display"/>
+                        <TextBox Name="BoxImgUrl" 
+                                 Text="{Binding ImgUrl}"
+                                 Height="40" 
+                                 Padding="12,8"
+                                 FontSize="14"
+                                 BorderBrush="#DDD" 
+                                 BorderThickness="1.5"
+                                 Background="White"
+                                 VerticalContentAlignment="Center"/>
+                        <TextBlock Text="Укажите относительный путь (например: img\\product1.jpg)" 
+                                   FontSize="11" 
+                                   Foreground="#888"
+                                   Margin="0,5,0,0"
+                                   TextOptions.TextFormattingMode="Display"/>
+                    </StackPanel>
+
+                </StackPanel>
+
+                <!-- Кнопки -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <Button Content="💾 Сохранить" 
+                            Click="SaveButtonClick"
+                            Height="45"
+                            Background="#4CAF50"
+                            Foreground="White"
+                            BorderThickness="0"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Padding="25,0"
+                            MinWidth="120"
+                            Cursor="Hand">
+                        <Button.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.2" ShadowDepth="2"/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button Content="❌ Удалить товар" 
+                            Click="DeleteButtonClick"
+                            Height="45"
+                            Background="#F44336"
+                            Foreground="White"
+                            BorderThickness="0"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Padding="25,0"
+                            MinWidth="120"
+                            Cursor="Hand">
+                        <Button.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.2" ShadowDepth="2"/>
+                        </Button.Effect>
+                    </Button>
+                </StackPanel>
+
+                <!-- Подсказка -->
+                <TextBlock Text="* - обязательные поля" 
+                           FontSize="12" 
+                           Foreground="#888"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0"
+                           TextOptions.TextFormattingMode="Display"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</Window>

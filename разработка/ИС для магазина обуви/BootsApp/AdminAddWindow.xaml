@@ -1,0 +1,22 @@
+﻿<Window x:Class="BootsApp.AdminAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BootsApp"
+        mc:Ignorable="d"
+        Title="AdminAddWindow" Height="450" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="172,10,0,0" VerticalAlignment="Top" Width="100" Source="/Icon.png"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="41,143,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Password"  Text="{Binding Пароль}"  HorizontalAlignment="Left" Margin="41,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="41,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Login" Text="{Binding Логин}" HorizontalAlignment="Left" Margin="41,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="41,261,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ФИО" Text="{Binding ФИО}" HorizontalAlignment="Left" Margin="41,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Роль" HorizontalAlignment="Left" Margin="283,157,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Role" SelectedValue="{Binding id_роль}"  DisplayMemberPath="Роль" SelectedValuePath="id"  HorizontalAlignment="Left" Margin="283,188,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить/Изменить пользователя" HorizontalAlignment="Center" Margin="0,368,0,0" VerticalAlignment="Top" Width="430" Click="AddButt"/>
+
+    </Grid>
+</Window>
